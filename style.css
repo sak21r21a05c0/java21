@@ -1,0 +1,51 @@
+.maincontainer{
+    display: flex;
+}
+
+
+.left{
+    flex: 60%;
+    padding-left: 10px;
+}
+
+.right{
+    flex: 40%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.navigation{
+    background-color: red;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    margin-right: 200px;
+}
+h1,h2{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.whitespace{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+}
+
+.readmorecontainer{
+    background-color: red;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.navigation ul {
+  display: flex;
+  gap: 20px;
+}
